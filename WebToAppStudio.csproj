@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWindowsForms>true</UseWindowsForms>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>WebToAppStudio</AssemblyName>
+    <RootNamespace>WebToAppStudio</RootNamespace>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <Version>1.0.0</Version>
+    <Product>WebToApp Studio</Product>
+    <Company>AFD</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="tools\**" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>
